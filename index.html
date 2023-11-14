@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<!-- Fontes -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,900;1,900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&family=Kanit:ital,wght@1,600&display=swap" rel="stylesheet">
+		<!--Icons-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+		<title>To-Do List</title>
+	</head>
+	<body>
+		<div class="container">
+			<br>
+			<h1>To-Do List</h1>
+			<div id="task-container">
+				<input type="text" id="task-input" placeholder="Add new task">
+				<button id="add-task-btn" class="special-button">Add</button>
+			</div>
+			<ul id="task-list"></ul>
+			
+			<button id="delete-btn" class="special-button2" ><i class="bi bi-trash"></i>Remove Completed</button>
+		</div>
+		<section>
+			<div>
+				<button id="show-completed-btn" class="special-button3">Keep Focus</button>
+			</div>
+		</section>
+		<script src="app.js"></script>
+	</body>
+</html>

@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff2f4;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffecee;
+}
+
+input::placeholder {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: thin;
+    color: #fff2f4;
+}
+
+.container {
+    text-align: center;
+    width: 400px; /* Ajuste o tamanho do contêiner conforme necessário */
+    padding: 20px; /* Adicione algum preenchimento interno para espaçamento */
+    border-radius: 10px;
+    background-color: #fff; /* Adicione uma cor de fundo ao contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicione uma sombra sutil */
+}
+
+#task-container {
+    margin-top: 20px;
+}
+
+#task-input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+a button, .special-button {
+    background-color: #ffecee;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px; /* Adiciona margem acima do botão */
+    margin-bottom: 10px;
+}
+
+a button:hover, .special-button:hover {
+    background-color: #ffeff1;
+}
+
+.button-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.special-button2 {
+    background-color: #ffecee;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 2px; /* Adiciona margem acima do botão */
+    margin-bottom: 2px;
+}
+
+.special-button3 {
+    background-color: #ffecee;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.hidden {
+    display: none;
+}
+
