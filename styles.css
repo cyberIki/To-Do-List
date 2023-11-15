@@ -30,16 +30,16 @@ h1 {
 input::placeholder {
     font-family: 'Quicksand', sans-serif;
     font-weight: thin;
-    color: #fff2f4;
+    color: #d4a5a5;
 }
 
 .container {
     text-align: center;
-    width: 400px; /* Ajuste o tamanho do contêiner conforme necessário */
-    padding: 20px; /* Adicione algum preenchimento interno para espaçamento */
+    width: 400px; 
+    padding: 20px; 
     border-radius: 10px;
-    background-color: #fff; /* Adicione uma cor de fundo ao contêiner */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicione uma sombra sutil */
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
 #task-container {
@@ -83,7 +83,7 @@ a button, .special-button {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 10px; /* Adiciona margem acima do botão */
+    margin-top: 10px; 
     margin-bottom: 10px;
 }
 
